@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "linux64",
+		"os_name" : "CentOS Linux",
+		"os_version" : ""
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "Segment Violation at 0x8",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t0x7fb2048ce703: QtGui.so.4 + 0x2a5703 (_ZNK14QWidgetPrivate13mapFromGlobalERK6QPoint + 0x23)\n\t  0x2400007:\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "18.1.1",
+		"build" : "646",
+		"edition" : "Lite Edition"
+	}
+}
